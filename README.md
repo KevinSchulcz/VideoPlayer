@@ -4,7 +4,7 @@ A C program that displays a video file at a specified frame rate in a simple win
 
 ## Demo
 
-A short demo of the program
+[A short demo of the program](https://github.com/user-attachments/assets/589432c7-b5aa-4d9b-972d-1ca11cdabdba)
 
 ## Getting Started
 
