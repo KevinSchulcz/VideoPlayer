@@ -1,6 +1,6 @@
 # VideoPlayer
 
-A C program that displays a video file at a specified frame rate in a simple window.
+A C program that displays a video file at a specified frame rate in a simple window. The program uses GTK4, FFmpeg and multi-threading to smoothly play the video on-screen.
 
 ## Demo
 
@@ -10,23 +10,23 @@ A short demo of the program
 
 ### Dependencies
 
-* GTK4
-* FFmpeg
-* pkg-config
+* [GTK4](https://www.gtk.org)
+* [FFmpeg](https://ffmpeg.org)
+* [pkg-config](https://www.freedesktop.org/wiki/Software/pkg-config/)
 * A C compiler
 
 ### Installing Dependencies
 
-#### On macOS
+**On macOS**
 
-All dependencies can be installed on macOS easily through Homebrew, or manually if you prefer.
-1. Install Homebrew here.
+All dependencies can be installed on macOS easily through Homebrew, or manually if you prefer (see links above).
+1. Install Homebrew [here](https://docs.brew.sh/Installation).
 2. Install the 3 libraries with Homebrew.
-{
-    brew install gtk4
-    brew install ffmpeg
-    brew install pkgconf
-}
+```
+brew install gtk4
+brew install ffmpeg
+brew install pkgconf
+```
 3. macOS already comes with a C compiler installed (clang) so installing one isn't necessary.
 
 ### Compiling
@@ -51,7 +51,7 @@ export PKG_CONFIG_PATH=/opt/homebrew/opt/ffmpeg/lib/pkgconfig:$PKG_CONFIG_PATH
 ```
 
 ```
-Ex. ./VideoPlayer sample.mp4 30
+Ex: ./VideoPlayer sample.mp4 30
 ```
 
 ## Authors
